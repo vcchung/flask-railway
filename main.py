@@ -11,7 +11,7 @@ def index():
 
 @app.route('/user')
 def test():
-    return jsonify({"name": "vincent"})
+    return jsonify({"name": "another testing user"})
 
 
 if __name__ == '__main__':
